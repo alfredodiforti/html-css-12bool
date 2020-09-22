@@ -1,0 +1,10 @@
+.box {
+  width: 100%;
+  background-color: orange;
+  text-align: center;
+  line-height: 45px;
+}
+
+.align {
+  text-align: center;
+}
