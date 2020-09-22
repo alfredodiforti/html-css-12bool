@@ -9,6 +9,8 @@
 .container {
   width: 1170px;
   margin: auto;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 .container::after {
   content: '';
@@ -20,76 +22,68 @@
   width: calc((100% / 12) * 1 );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-2 {
   width: calc((100% / 12) * 2 );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-3 {
   width: calc((100% / 12) * 3 );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-4 {
   width: calc((100% / 12) * 4 );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-5 {
   width: calc((100% / 12) * 5  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-6 {
   width: calc((100% / 12) * 6  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-7 {
   width: calc((100% / 12) * 7  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-8 {
   width: calc((100% / 12) * 8  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-9 {
   width: calc((100% / 12) * 9  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-10 {
   width: calc((100% / 12) * 10  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-11 {
   width: calc((100% / 12) * 11  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 .col-12 {
   width: calc((100% / 12) * 12  );
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 [class*=col-] {
   float: left;
+}
+[class*=col-].padzero {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .col-offset-1 {
   margin-left: calc((100% / 12) * 1 )
